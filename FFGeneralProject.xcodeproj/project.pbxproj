@@ -15,6 +15,8 @@
 		403260E122E7EFFC00E98C56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 403260E022E7EFFC00E98C56 /* main.m */; };
 		403260EB22E7EFFC00E98C56 /* FFGeneralProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 403260EA22E7EFFC00E98C56 /* FFGeneralProjectTests.m */; };
 		403260F622E7EFFC00E98C56 /* FFGeneralProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 403260F522E7EFFC00E98C56 /* FFGeneralProjectUITests.m */; };
+		4032614C22E9478E00E98C56 /* NSData+encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 4032614822E9478D00E98C56 /* NSData+encryption.m */; };
+		4032614D22E9478E00E98C56 /* NSString+encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 4032614A22E9478E00E98C56 /* NSString+encryption.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		403260F122E7EFFC00E98C56 /* FFGeneralProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFGeneralProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		403260F522E7EFFC00E98C56 /* FFGeneralProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFGeneralProjectUITests.m; sourceTree = "<group>"; };
 		403260F722E7EFFC00E98C56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4032614822E9478D00E98C56 /* NSData+encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+encryption.m"; sourceTree = "<group>"; };
+		4032614922E9478E00E98C56 /* NSString+encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+encryption.h"; sourceTree = "<group>"; };
+		4032614A22E9478E00E98C56 /* NSString+encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+encryption.m"; sourceTree = "<group>"; };
+		4032614B22E9478E00E98C56 /* NSData+encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+encryption.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,7 @@
 				403260D222E7EFFB00E98C56 /* AppDelegate.m */,
 				403260D422E7EFFB00E98C56 /* ViewController.h */,
 				403260D522E7EFFB00E98C56 /* ViewController.m */,
+				4032610322E7F6F400E98C56 /* New Group */,
 				403260D722E7EFFB00E98C56 /* Main.storyboard */,
 				403260DA22E7EFFC00E98C56 /* Assets.xcassets */,
 				403260DC22E7EFFC00E98C56 /* LaunchScreen.storyboard */,
@@ -130,6 +137,17 @@
 				403260F722E7EFFC00E98C56 /* Info.plist */,
 			);
 			path = FFGeneralProjectUITests;
+			sourceTree = "<group>";
+		};
+		4032610322E7F6F400E98C56 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				4032614B22E9478E00E98C56 /* NSData+encryption.h */,
+				4032614822E9478D00E98C56 /* NSData+encryption.m */,
+				4032614922E9478E00E98C56 /* NSString+encryption.h */,
+				4032614A22E9478E00E98C56 /* NSString+encryption.m */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +283,8 @@
 				403260D622E7EFFB00E98C56 /* ViewController.m in Sources */,
 				403260E122E7EFFC00E98C56 /* main.m in Sources */,
 				403260D322E7EFFB00E98C56 /* AppDelegate.m in Sources */,
+				4032614C22E9478E00E98C56 /* NSData+encryption.m in Sources */,
+				4032614D22E9478E00E98C56 /* NSString+encryption.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
