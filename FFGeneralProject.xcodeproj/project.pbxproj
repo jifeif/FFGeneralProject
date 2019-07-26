@@ -111,7 +111,7 @@
 				403260D222E7EFFB00E98C56 /* AppDelegate.m */,
 				403260D422E7EFFB00E98C56 /* ViewController.h */,
 				403260D522E7EFFB00E98C56 /* ViewController.m */,
-				4032610322E7F6F400E98C56 /* New Group */,
+				4032610322E7F6F400E98C56 /* EncryptionCategary */,
 				403260D722E7EFFB00E98C56 /* Main.storyboard */,
 				403260DA22E7EFFC00E98C56 /* Assets.xcassets */,
 				403260DC22E7EFFC00E98C56 /* LaunchScreen.storyboard */,
@@ -139,7 +139,7 @@
 			path = FFGeneralProjectUITests;
 			sourceTree = "<group>";
 		};
-		4032610322E7F6F400E98C56 /* New Group */ = {
+		4032610322E7F6F400E98C56 /* EncryptionCategary */ = {
 			isa = PBXGroup;
 			children = (
 				4032614B22E9478E00E98C56 /* NSData+encryption.h */,
@@ -147,7 +147,7 @@
 				4032614922E9478E00E98C56 /* NSString+encryption.h */,
 				4032614A22E9478E00E98C56 /* NSString+encryption.m */,
 			);
-			path = "New Group";
+			path = EncryptionCategary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
