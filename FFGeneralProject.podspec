@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FFGeneralProject"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "FFGeneralProject 用于加密"
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,9 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-	暂时完成了MD5, SHA256, SHA512, AES128加解密, AES256加解密
+	暂时完成了MD5, SHA256, SHA512, AES128加解密, AES256加解密。
+ 其中0.0.1版本导入有问题请勿使用，
+ 使用从0.0.2版本开始
                    DESC
 
   s.homepage     = "https://github.com/jifeif/FFGeneralProject.git"
@@ -39,7 +41,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  # s.license      = "MIT (example)"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -80,7 +82,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/jifeif/FFGeneralProject.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/jifeif/FFGeneralProject.git", :tag => 0.0.2 }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +93,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "EncryptionCategary", "EncryptionCategary/**"
+  s.source_files  = "FFGeneralProject/EncryptionCategary/**"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
