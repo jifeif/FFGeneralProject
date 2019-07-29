@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FFGeneralProject"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "FFGeneralProject 用于加密"
 
   # This description is used to generate tags and improve search results.
@@ -28,6 +28,7 @@ Pod::Spec.new do |s|
 	暂时完成了MD5, SHA256, SHA512, AES128加解密, AES256加解密。
  其中0.0.1版本导入有问题请勿使用，
  使用从0.0.2版本开始
+ 使用0.0.3版本新增加密.h文件更新SHA512加密错误
                    DESC
 
   s.homepage     = "https://github.com/jifeif/FFGeneralProject.git"

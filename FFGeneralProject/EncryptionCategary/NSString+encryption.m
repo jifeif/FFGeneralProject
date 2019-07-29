@@ -46,7 +46,7 @@
 - (NSString *)FF_encryptionSHA512 {
     const char * data = [self UTF8String];
     unsigned char need[CC_SHA512_DIGEST_LENGTH];
-    CC_SHA256(data, (int)strlen(data), need);
+    CC_SHA512(data, (int)strlen(data), need);
     NSMutableString *str = [NSMutableString string];
     for (int i = 0; i < CC_SHA512_DIGEST_LENGTH; i++) {
         [str appendFormat:@"%02x", need[i]];

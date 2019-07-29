@@ -29,21 +29,22 @@
  
  return 返回base64 和 AES128 加密过后的字符串
  */
-- (NSString *)FF_encryptAES128:(NSString *)key {
+- (NSData *)FF_encryptAES128:(NSString *)key {
     NSData *data = [self FF_encryptWithKey:key andAESType:kCCKeySizeAES128];
     return [self FF_dataToBase64Str:data];
 }
 
-- (NSString *)FF_encryptAES256:(NSString *)key {
+- (NSData *)FF_encryptAES256:(NSString *)key {
     NSData *data = [self FF_encryptWithKey:key andAESType:kCCKeySizeAES128];
     return [self FF_dataToBase64Str:data];
 }
 
-/// 转化成base64字符串
-- (NSString *)FF_dataToBase64Str:(NSData *)data {
+/// 返回加密串
+- (NSData *)FF_dataToBase64Str:(NSData *)data {
     if (data) {
-        NSData *otherData = [data base64EncodedDataWithOptions:NSDataBase64EncodingEndLineWithLineFeed];
-        return [[NSString alloc] initWithData:otherData encoding:NSUTF8StringEncoding];
+//        NSData *otherData = [data base64EncodedDataWithOptions:NSDataBase64EncodingEndLineWithLineFeed];
+        return data;
+//        return [[NSString alloc] initWithData:otherData encoding:NSUTF8StringEncoding];
     }else {
         NSAssert(data != nil, @"---NSData is null Data, convert String failure ---");
         return nil;
@@ -136,7 +137,6 @@
         NSAssert(status == 0, @"Decryption Failure");
         return nil;
     }
-
 }
 
 
@@ -152,5 +152,14 @@
     return data;
 }
 
++ (NSData *)FF_Base64DecodeWithStr:(NSString *)str {
+    NSData *data = [str dataUsingEncoding:NSUTF8StringEncoding];
+    return [[NSData alloc] initWithBase64EncodedData:data options:NSDataBase64DecodingIgnoreUnknownCharacters];
+}
+
+- (NSString *)FF_dataConvertBase64String {
+    NSData *data = [self base64EncodedDataWithOptions:NSDataBase64EncodingEndLineWithLineFeed];
+    return [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+}
 
 @end

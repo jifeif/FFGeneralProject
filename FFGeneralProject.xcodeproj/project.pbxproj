@@ -57,6 +57,7 @@
 		4032614922E9478E00E98C56 /* NSString+encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+encryption.h"; sourceTree = "<group>"; };
 		4032614A22E9478E00E98C56 /* NSString+encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+encryption.m"; sourceTree = "<group>"; };
 		4032614B22E9478E00E98C56 /* NSData+encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+encryption.h"; sourceTree = "<group>"; };
+		40DAD1A122EEA8B90080AFAD /* FFEncryptionCategary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFEncryptionCategary.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +147,7 @@
 				4032614822E9478D00E98C56 /* NSData+encryption.m */,
 				4032614922E9478E00E98C56 /* NSString+encryption.h */,
 				4032614A22E9478E00E98C56 /* NSString+encryption.m */,
+				40DAD1A122EEA8B90080AFAD /* FFEncryptionCategary.h */,
 			);
 			path = EncryptionCategary;
 			sourceTree = "<group>";
