@@ -23,4 +23,14 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSString *)FF_encryptionSHA512;
 @end
 
+@interface NSString (whitespace)
+/// 去除收尾空格
+- (NSString *)FF_trimmingWhtespace;
+@end
+
+@interface NSString (URLEncode)
+/// 对URL字符串进行编码（百分号形式）
+- (NSString *)FF_stringPercentEncoding;
+@end
+
 NS_ASSUME_NONNULL_END

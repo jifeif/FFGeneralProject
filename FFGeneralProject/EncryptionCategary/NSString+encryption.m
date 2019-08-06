@@ -53,6 +53,19 @@
     }
     return [NSString stringWithString:str];
 }
+@end
 
 
+@implementation NSString (whitespace)
+/// 去除收尾空格
+- (NSString *)FF_trimmingWhtespace {
+    return [self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
+}
+@end
+
+@implementation NSString (URLEncode)
+- (NSString *)FF_stringPercentEncoding {
+    NSString *str = [self stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet characterSetWithCharactersInString:@"?!@#$^&%*+,:;='\"`<>()[]{}/\\|"].invertedSet];
+    return str;
+}
 @end
