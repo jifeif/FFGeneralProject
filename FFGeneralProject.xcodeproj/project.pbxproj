@@ -17,6 +17,14 @@
 		403260F622E7EFFC00E98C56 /* FFGeneralProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 403260F522E7EFFC00E98C56 /* FFGeneralProjectUITests.m */; };
 		4032614C22E9478E00E98C56 /* NSData+encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 4032614822E9478D00E98C56 /* NSData+encryption.m */; };
 		4032614D22E9478E00E98C56 /* NSString+encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 4032614A22E9478E00E98C56 /* NSString+encryption.m */; };
+		4062114822F969BE00BDBBA6 /* JFFImageBrowserView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4062114722F969BE00BDBBA6 /* JFFImageBrowserView.m */; };
+		4062114C22F96BF800BDBBA6 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4062114B22F96BF800BDBBA6 /* 1.jpg */; };
+		4062114E22F96BFD00BDBBA6 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4062114D22F96BFD00BDBBA6 /* 2.jpg */; };
+		4062115022F96C0700BDBBA6 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4062114F22F96C0600BDBBA6 /* 3.jpg */; };
+		4062115222F96C1800BDBBA6 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4062115122F96C1800BDBBA6 /* 4.jpg */; };
+		4062115422F96C1C00BDBBA6 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4062115322F96C1C00BDBBA6 /* 5.jpg */; };
+		4062115722F96CFC00BDBBA6 /* JFFImageBrowserCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4062115622F96CFC00BDBBA6 /* JFFImageBrowserCollectionViewCell.m */; };
+		E7FF2592FE05B73906A3AC12 /* libPods-FFGeneralProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC992648C7922DC989A6808 /* libPods-FFGeneralProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1418383D11352D8767A78679 /* Pods-FFGeneralProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFGeneralProject.debug.xcconfig"; path = "Target Support Files/Pods-FFGeneralProject/Pods-FFGeneralProject.debug.xcconfig"; sourceTree = "<group>"; };
 		403260CE22E7EFFB00E98C56 /* FFGeneralProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFGeneralProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		403260D122E7EFFB00E98C56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		403260D222E7EFFB00E98C56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -57,7 +66,18 @@
 		4032614922E9478E00E98C56 /* NSString+encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+encryption.h"; sourceTree = "<group>"; };
 		4032614A22E9478E00E98C56 /* NSString+encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+encryption.m"; sourceTree = "<group>"; };
 		4032614B22E9478E00E98C56 /* NSData+encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+encryption.h"; sourceTree = "<group>"; };
+		4062114622F969BE00BDBBA6 /* JFFImageBrowserView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFFImageBrowserView.h; sourceTree = "<group>"; };
+		4062114722F969BE00BDBBA6 /* JFFImageBrowserView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFFImageBrowserView.m; sourceTree = "<group>"; };
+		4062114B22F96BF800BDBBA6 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		4062114D22F96BFD00BDBBA6 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		4062114F22F96C0600BDBBA6 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		4062115122F96C1800BDBBA6 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		4062115322F96C1C00BDBBA6 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		4062115522F96CFC00BDBBA6 /* JFFImageBrowserCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFFImageBrowserCollectionViewCell.h; sourceTree = "<group>"; };
+		4062115622F96CFC00BDBBA6 /* JFFImageBrowserCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFFImageBrowserCollectionViewCell.m; sourceTree = "<group>"; };
 		40DAD1A122EEA8B90080AFAD /* FFEncryptionCategary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFEncryptionCategary.h; sourceTree = "<group>"; };
+		70CD3989E4C4EF269664368F /* Pods-FFGeneralProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFGeneralProject.release.xcconfig"; path = "Target Support Files/Pods-FFGeneralProject/Pods-FFGeneralProject.release.xcconfig"; sourceTree = "<group>"; };
+		BCC992648C7922DC989A6808 /* libPods-FFGeneralProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FFGeneralProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7FF2592FE05B73906A3AC12 /* libPods-FFGeneralProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +113,8 @@
 				403260E922E7EFFC00E98C56 /* FFGeneralProjectTests */,
 				403260F422E7EFFC00E98C56 /* FFGeneralProjectUITests */,
 				403260CF22E7EFFB00E98C56 /* Products */,
+				AA01CE61F22E946E42063DB8 /* Pods */,
+				4151407B2AEF858ED4DE7795 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +135,8 @@
 				403260D222E7EFFB00E98C56 /* AppDelegate.m */,
 				403260D422E7EFFB00E98C56 /* ViewController.h */,
 				403260D522E7EFFB00E98C56 /* ViewController.m */,
+				4062114922F96BCD00BDBBA6 /* Resource */,
+				4062114522F9692D00BDBBA6 /* JFFImageBrowser */,
 				4032610322E7F6F400E98C56 /* EncryptionCategary */,
 				403260D722E7EFFB00E98C56 /* Main.storyboard */,
 				403260DA22E7EFFC00E98C56 /* Assets.xcassets */,
@@ -152,6 +177,54 @@
 			path = EncryptionCategary;
 			sourceTree = "<group>";
 		};
+		4062114522F9692D00BDBBA6 /* JFFImageBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				4062114622F969BE00BDBBA6 /* JFFImageBrowserView.h */,
+				4062114722F969BE00BDBBA6 /* JFFImageBrowserView.m */,
+				4062115522F96CFC00BDBBA6 /* JFFImageBrowserCollectionViewCell.h */,
+				4062115622F96CFC00BDBBA6 /* JFFImageBrowserCollectionViewCell.m */,
+			);
+			path = JFFImageBrowser;
+			sourceTree = "<group>";
+		};
+		4062114922F96BCD00BDBBA6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				4062114A22F96BDB00BDBBA6 /* Image */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		4062114A22F96BDB00BDBBA6 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				4062115322F96C1C00BDBBA6 /* 5.jpg */,
+				4062115122F96C1800BDBBA6 /* 4.jpg */,
+				4062114F22F96C0600BDBBA6 /* 3.jpg */,
+				4062114D22F96BFD00BDBBA6 /* 2.jpg */,
+				4062114B22F96BF800BDBBA6 /* 1.jpg */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		4151407B2AEF858ED4DE7795 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCC992648C7922DC989A6808 /* libPods-FFGeneralProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA01CE61F22E946E42063DB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1418383D11352D8767A78679 /* Pods-FFGeneralProject.debug.xcconfig */,
+				70CD3989E4C4EF269664368F /* Pods-FFGeneralProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,6 +232,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 403260FA22E7EFFC00E98C56 /* Build configuration list for PBXNativeTarget "FFGeneralProject" */;
 			buildPhases = (
+				9B21A68EA4B4569340848FD9 /* [CP] Check Pods Manifest.lock */,
 				403260CA22E7EFFB00E98C56 /* Sources */,
 				403260CB22E7EFFB00E98C56 /* Frameworks */,
 				403260CC22E7EFFB00E98C56 /* Resources */,
@@ -256,6 +330,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				403260DE22E7EFFC00E98C56 /* LaunchScreen.storyboard in Resources */,
+				4062115422F96C1C00BDBBA6 /* 5.jpg in Resources */,
+				4062115222F96C1800BDBBA6 /* 4.jpg in Resources */,
+				4062114C22F96BF800BDBBA6 /* 1.jpg in Resources */,
+				4062114E22F96BFD00BDBBA6 /* 2.jpg in Resources */,
+				4062115022F96C0700BDBBA6 /* 3.jpg in Resources */,
 				403260DB22E7EFFC00E98C56 /* Assets.xcassets in Resources */,
 				403260D922E7EFFB00E98C56 /* Main.storyboard in Resources */,
 			);
@@ -277,6 +356,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9B21A68EA4B4569340848FD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FFGeneralProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		403260CA22E7EFFB00E98C56 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -286,6 +390,8 @@
 				403260E122E7EFFC00E98C56 /* main.m in Sources */,
 				403260D322E7EFFB00E98C56 /* AppDelegate.m in Sources */,
 				4032614C22E9478E00E98C56 /* NSData+encryption.m in Sources */,
+				4062115722F96CFC00BDBBA6 /* JFFImageBrowserCollectionViewCell.m in Sources */,
+				4062114822F969BE00BDBBA6 /* JFFImageBrowserView.m in Sources */,
 				4032614D22E9478E00E98C56 /* NSString+encryption.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -455,10 +561,12 @@
 		};
 		403260FB22E7EFFC00E98C56 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1418383D11352D8767A78679 /* Pods-FFGeneralProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FFGeneralProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,10 +579,12 @@
 		};
 		403260FC22E7EFFC00E98C56 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70CD3989E4C4EF269664368F /* Pods-FFGeneralProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FFGeneralProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
